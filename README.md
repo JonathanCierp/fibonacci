@@ -2,6 +2,14 @@
 
 Url : https://fibonacci-omega.vercel.app/
 
+Stack du projet :
+
+1. Vitejs
+2. Vuejs 3
+3. Tailwindcss/Postcss
+4. PWA
+5. Linters
+
 ### Consignes :
 
 1. Demander a l’utilisateur un nombre
