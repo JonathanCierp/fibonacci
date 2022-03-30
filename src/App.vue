@@ -45,7 +45,7 @@ import BaseFormInput from '@/components/base/form/BaseFormInput.vue'
 import { onMounted, ref } from 'vue'
 
 // Number chosen by user | number
-const chosenNumber = ref(50)
+const chosenNumber = ref()
 // Result of fibonaccy | array<number>
 const results = ref([])
 
