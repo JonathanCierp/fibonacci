@@ -17,7 +17,7 @@
       <p class="mt-2">Le tout en web app avec les techno de ton choix.</p>
     </div>
     <!-- Form -->
-    <form class="mb-8">
+    <form class="mb-8" @submit.prevent="">
       <BaseFormInput
         v-model.number="chosenNumber"
         label="Entrez un nombre"
