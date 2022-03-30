@@ -8,18 +8,23 @@ export default defineConfig({
   plugins: [
     vue(),
     VitePWA({
-      includeAssets: ['favicon.ico', 'robots.txt'],
+      includeAssets: ['favicon.svg'],
       manifest: {
-        name: 'Fibonaccy',
-        short_name: 'Fibonaccy',
+        name: 'Fibonacci',
+        short_name: 'Fibonacci',
+        theme_color: '#ffffff',
+        id: '/',
         start_url: '/',
-        display: 'standalone',
-        theme_color: '#3E66FB',
-        background_color: '#fff',
+        scope: '/',
         icons: [
           {
-            src: '/img/logoPWA.png',
-            sizes: '144x144',
+            src: '/pwa-192x192.png', // <== don't add slash, for testing
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: '/pwa-512x512.png', // <== don't remove slash, for testing
+            sizes: '512x512',
             type: 'image/png',
           },
         ],
