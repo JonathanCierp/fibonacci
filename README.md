@@ -1,4 +1,4 @@
-# Fibonaccy
+# Fibonacci
 
 Url : https://fibonacci-omega.vercel.app/
 
