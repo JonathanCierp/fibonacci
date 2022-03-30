@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
     VitePWA({
+      includeAssets: ['favicon.ico', 'robots.txt'],
       manifest: {
         name: 'Fibonaccy',
         short_name: 'Fibonaccy',
@@ -22,9 +23,6 @@ export default defineConfig({
             type: 'image/png',
           },
         ],
-      },
-      devOptions: {
-        enabled: true,
       },
     }),
   ],
