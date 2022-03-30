@@ -1,0 +1,16 @@
+{
+  "parser": "@eslint/parser",
+  "plugins": ["@eslint/eslint-plugin"],
+  "extends": ["eslint:recommended", "plugin:vue/vue3-recommended"],
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "ignorePatterns": [".eslintrc.js"],
+  "rules": {
+    "@eslint/interface-name-prefix": "off",
+    "@eslint/explicit-function-return-type": "off",
+    "@eslint/explicit-module-boundary-types": "off",
+    "@eslint/no-explicit-any": "off"
+  }
+}
