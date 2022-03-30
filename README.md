@@ -6,7 +6,7 @@ Stack du projet :
 
 1. Vitejs
 2. Vuejs 3
-3. Tailwindcss/Postcss
+3. Tailwindcss/Postcss/Autoprefixer
 4. PWA
 5. Linters
 
