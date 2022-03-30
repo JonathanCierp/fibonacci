@@ -1,7 +1,32 @@
-# Vue 3 + Vite
+# Fibonaccy
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Url : https://fibonacci-omega.vercel.app/
 
-## Recommended IDE Setup
+### Consignes :
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+1. Demander a l’utilisateur un nombre
+2. Afficher la suite de Fibonacci jusqu’à ce nombre exclu
+3. Et tout les multiples de 3 doivent mis en gras
+
+Le tout en web app avec les techno de ton choix.
+
+### Lancer le projet :
+
+#### Lancer en dev
+
+```shell
+pnpm i
+pnpm dev
+
+// Ouvrir http://localhost:3000
+```
+
+#### Lancer avec le mode PWA
+
+```shell
+pnpm i
+pnpm build
+pnpm preview:https
+
+// Ouvrir https://localhost
+```
